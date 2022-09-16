@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Encode Sans SC', sans-serif;
+    background-color: #000000;
+    background-image: url(glaza5.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.gradient{
+    background: url(); 
+}
+
+#par{
+    font-size: 60px;
+    color: #fff;
+    padding: 0px 0px 30px 0px;
+    margin: 0px;
+    text-align: center;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.glaz{
+    padding: 30px 0px 0px 0px;
+}
+#container {
+    background: rgba(39,5,69,0.6);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    border-radius: 600px;
+    margin: 30px 0px;
+}
+.numero {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+#guess {
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)
+}
+.btn-grad {
+    margin: 30px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 0 8px #000000;
+    border-radius: 50px;
+    display: block;
+    border: none;
+    font-size: 20px;
+}
+.btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+.link {
+    background: rgb(62,6,130);
+    background: linear-gradient(90deg, rgba(62,6,130,0.7) 0%, rgba(227,60,218,0.5) 49%, rgba(62,6,130,0.7) 100%);
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.fb {
+    margin: 7px;
+}
+
+@media all and (max-width : 500px) {
+    #par {
+        font-size: 30px;
+}
+#container {
+    width: 300px;
+    height: 300px;
+    border-radius: 600px;
+}
+.numero {
+    font-size: 18px;
+}
+}
